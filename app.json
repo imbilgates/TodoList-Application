@@ -1,22 +1,27 @@
 {
   "expo": {
-    "name": "learnnative",
-    "slug": "learnnative",
-    "version": "1.0.0",
+    "name": "Listify",
+    "slug": "listify",
+    "version": "1.0.1",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "learnnative",
+    "scheme": "Listify",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bilgates.Listify",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "edgeToEdgeEnabled": true,
+      "package": "com.bilgates.Listify"
     },
     "web": {
       "bundler": "metro",
@@ -33,6 +38,19 @@
           "resizeMode": "contain",
           "backgroundColor": "#ffffff"
         }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/images/icon.png",
+          "color": "#ffffff",
+          "defaultChannel": "default",
+          "sounds": [
+            "./local/assets/notification_sound.wav",
+            "./local/assets/notification_sound_other.wav"
+          ],
+          "enableBackgroundRemoteNotifications": false
+        }
       ]
     ],
     "experiments": {
@@ -41,7 +59,7 @@
     "extra": {
       "router": {},
       "eas": {
-        "projectId": "b521a090-c339-43e0-b612-fdef5d963ff0"
+        "projectId": "bb66ce7b-064e-4572-89a7-eaa4f574342d"
       }
     },
     "owner": "bilgates"

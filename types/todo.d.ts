@@ -1,5 +1,8 @@
 export interface TodoItem {
-  id: number;
+  _id: string;
   title: string;
-  completed?: boolean; 
+  completed: boolean;
+  reminderAt: Date,
+  createdAt?: string;
+  updatedAt?: string;
 }
