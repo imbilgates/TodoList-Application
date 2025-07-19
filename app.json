@@ -62,6 +62,12 @@
         "projectId": "bb66ce7b-064e-4572-89a7-eaa4f574342d"
       }
     },
-    "owner": "bilgates"
+    "owner": "bilgates",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/bb66ce7b-064e-4572-89a7-eaa4f574342d"
+    }
   }
 }

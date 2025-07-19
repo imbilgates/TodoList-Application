@@ -1,50 +1,69 @@
-# Welcome to your Expo app 👋
+# 📝 TodoNative with Notifications
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A beautifully designed cross-platform **React Native Todo App** with built-in **local push notifications**, built using the **Brastull MERN Stack** (MongoDB, Express.js, React Native, Node.js).
 
-## Get started
+> Stay organized and never miss a task again — get notified exactly when you need it!
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## 🚀 Features
 
-2. Start the app
+- ✅ Create, edit, and delete todos
+- ⏰ **Schedule local notifications** (powered by Expo)
+- 🌗 Light/Dark theme support
+- 📲 Responsive design across Android and iOS
+- 💾 Persisted with **MongoDB** via **Express + Node.js API**
+- 🔔 Notification permissions and fallback handling
+- ⚡ Smooth UI with optimized FlatList and custom components
 
-   ```bash
-   npx expo start
-   ```
+---
 
-In the output, you'll find options to open the app in a
+## 📸 Screenshots
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: center;">
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+  <img src="./github-ss/img1.jpg" width="200" />
+  <img src="./github-ss/img2.jpg" width="200" />
+  <img src="./github-ss/img3.jpg" width="200" />
 
-## Get a fresh project
+</div>
 
-When you're ready, run:
+---
+
+## 🧱 Tech Stack
+
+### Frontend (Mobile)
+
+- [React Native](https://reactnative.dev/)
+- [Expo](https://expo.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Expo Notifications](https://docs.expo.dev/versions/latest/sdk/notifications/)
+- [React Navigation](https://reactnavigation.org/)
+
+### Backend (Brastull Stack)
+
+- [Node.js](https://nodejs.org/)
+- [Express.js](https://expressjs.com/)
+- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
+- [Mongoose](https://mongoosejs.com/)
+
+---
+
+## ⚙️ Installation & Setup
+
+### 🔧 Prerequisites
+
+- Node.js & npm
+- MongoDB Atlas (or local MongoDB)
+- Expo CLI: `npm install -g expo-cli`
+
+---
+
+### 🖥️ Backend (API)
 
 ```bash
-npm run reset-project
+cd backend
+npm install
+npm run dev
 ```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
